@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { GiHamburgerMenu } from "react-icons/gi";
-import AdminSideBar from './AdminSIdeBar';
+import AdminSideBar from '../../admin/AdminSideBar';
 import { Outlet } from 'react-router-dom';
 
 

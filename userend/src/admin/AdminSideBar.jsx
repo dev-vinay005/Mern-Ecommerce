@@ -18,7 +18,7 @@ const AdminSideBar = () => {
         { name: "Dashboard", icon: MdDashboard, url: '/admin/' },
         { name: "Users", icon: FiUsers, url: '/admin/users' },
         // { name: "Categories", icon: FiTag },
-        { name: "Products", icon: FiBox, url: '/admin/products' },
+        { name: "Products", icon: FiBox, url: '/admin/products?limit=6&page=1' },
         { name: "Orders", icon: FiShoppingCart, url: '/admin/orders' },
         { name: "Analytics", icon: FiBarChart2, url: '/admin/analytics' },
         { name: "Settings", icon: FiSettings, url: '/admin/setting' },
