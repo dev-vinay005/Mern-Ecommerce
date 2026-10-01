@@ -3,8 +3,11 @@ import axios from "axios";
 export const openRazorpay = async (amount, orderId, checkoutId, navigate) => {
 
     const RAZORPAY_KEY_ID = import.meta.env.VITE_RAZORPAY_KEY_ID;
+    const RAZORPAY_KEY_SECRET = import.meta.env.VITE_RAZORPAY_KEY_SECRET;
     const options = {
-        key: import.meta.env.VITE_RAZORPAY_KEY_ID,
+        key: RAZORPAY_KEY_ID,
+        secret: RAZORPAY_KEY_SECRET,
+
         amount: amount, // already in paise from backend
         currency: "INR",
         name: "My Store",

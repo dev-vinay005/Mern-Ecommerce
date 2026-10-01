@@ -43,6 +43,9 @@ const App = () => {
             />
             <Routes>
                 // user routes
+                {/* <Route path="/" element={<ProtectedRoute >
+                    <UserLayout />
+                </ProtectedRoute>}> */}
                 <Route path="/" element={<UserLayout />}>
                     <Route index element={<HomePage />}></Route>
                     <Route path='products' element={<ProductsPage />}></Route>
